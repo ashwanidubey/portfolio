@@ -1,0 +1,138 @@
+h1
+{
+    color: red;
+}
+nav{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    background-color:#343A40;
+}
+#nav-left
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left:20px;
+}
+#nav-right
+{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+#nav-right-a1, #nav-right-a2,#nav-right-a3
+{
+    font-size:xx-large;
+    padding: 15px;
+    color:white;
+}
+
+
+#footer {
+    position:absolute;
+    bottom:0;
+    width:100%;
+    height:10%;   /* Height of the footer */
+    background:#E4EFE7;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    align-items: center;
+ }
+ #myimage
+ {
+     padding: 30px;
+    border-radius: 50%;
+ }
+ #myself
+ {
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+     justify-content: space-between;
+ }
+ #myview
+ {
+     width: 70%;
+     font-size:xx-large;
+     padding-right: 5%;
+ }
+ #myheading
+ {
+     text-align: center;
+     font-size: x-large;
+ }
+ #mytable
+ {
+    margin: auto;
+    padding-left: 115px;
+ }
+ .cell
+ {
+     font-size:x-large;
+    border-style: solid;
+    text-align: center;
+ }
+ .card
+ {
+     background-color: aquamarine;
+     border-radius: 20px;
+     height: 200px;
+     width: 30%;
+    margin-top: 4%;
+     
+ }
+ .category
+ {
+     background-color: aqua;
+     border-radius: 20px;
+     text-align: center;
+ }
+ 
+
+ .card-container
+ {
+     display: flex;
+     flex-wrap: wrap;
+     justify-content: space-around;
+     
+     align-items:center;
+ }
+ .items
+ {
+     font-size: large;
+     text-align: center;
+ }
+ .projectlink
+ {
+    width: 100%;
+    text-align: center;
+    margin: auto;
+ }
+ .footer-element
+ {
+     padding: 10px;
+     
+ }
+ .footer-element-image
+ {
+    border-radius: 15px;
+ }
+ #myname
+ {
+     color: white;
+     padding-left: 35px;
+     font-size: xx-large;
+ }
+ .card1
+ {
+     background-color: aquamarine;
+     border-radius: 20px;
+     height: 250px;
+     width: 30%;
+    margin-top: 4%;
+     
+ }
