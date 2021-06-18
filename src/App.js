@@ -20,6 +20,7 @@ function App() {
            <Route exact path="/projects" render={()=>{return <> <Header value={2}/><Project/></>}}/>
           
         </Switch>
+       
       </Router>
       <Footer />
          

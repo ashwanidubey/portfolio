@@ -3,6 +3,9 @@ h1
     color: red;
 }
 nav{
+    position:sticky;
+    top:0;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content:space-between;
@@ -32,7 +35,7 @@ nav{
 
 
 #footer {
-    position:absolute;
+    position:fixed;
     bottom:0;
     width:100%;
     height:10%;   /* Height of the footer */
@@ -49,6 +52,8 @@ nav{
  }
  #myself
  {
+     position: sticky;
+     
      display: flex;
      flex-direction: row;
      align-items: center;
