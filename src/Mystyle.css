@@ -3,7 +3,7 @@ nav{
    
     width: 100%;
     display: flex;
-    height: 95px;
+    height: 15vh;
     flex-direction: row;
     justify-content:space-between;
     align-items: center;
@@ -27,9 +27,10 @@ nav{
 
 
 #footer {
-    
+    position: fixed;
+    bottom: 0;
     width:100%;
-    height:10%;   /* Height of the footer */
+    height:10vh;   /* Height of the footer */
     background:#E4EFE7;
     display: flex;
     flex-flow: row;
@@ -42,10 +43,11 @@ nav{
      flex-direction: column;
      justify-content: center;
      align-items: center;
+    
  }
  #myimage
  {
-     padding: 30px;
+     padding: 2vh;
     border-radius: 50%;
  }
  #myself
@@ -59,7 +61,7 @@ nav{
  #myview
  {
      
-     font-size:xx-large;
+     font-size:x-large;
      padding-right: 5%;
  }
  #myheading
