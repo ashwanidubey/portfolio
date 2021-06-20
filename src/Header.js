@@ -19,7 +19,7 @@ function Header({value})
              <nav>   
 
                  <div id="nav-left">
-                    <h1 id="myname">ASHWANI DUBEY</h1>
+                    <h3 id="myname">ASHWANI DUBEY</h3>
                  </div>
                  <div id="nav-right">
                     <a style={{color: state[0]}}  onClick={()=>{setcount(0)}} href="/" id="nav-right-a1">Home</a>

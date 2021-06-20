@@ -19,10 +19,15 @@ function Project()
                     <h1 className="category">TODO LIST</h1>
                     <p className="items">Todo List :Add your daily work</p>
                     <p className="items">Features: Add ,Delete ,Edit the task </p>
-                    <p className="items">Role:Developer || Tech:React</p>
+                    <p className="items">Role:Developer | Tech:React</p>
                     <h3 className="projectlink"><a  href="https://ashwanidubey.github.io/To_do_list/" >PROJECT LINK</a></h3>
              </div>
-            
+             <div className="card1">
+                    <h1 className="category">Online Covid Tracker</h1>
+                    <p className="items">Features: Covid update in India and all states</p>
+                    <p className="items">Role:Developer | Tech:React</p>
+                    <h3 className="projectlink"><a  href="https://ashwanidubey.github.io/livecovidtracker/" >PROJECT LINK</a></h3>
+             </div>
            </div>
             
             </>
