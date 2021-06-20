@@ -3,7 +3,7 @@ function Intro()
     return  <>
              <div className="myInto">
              <div id="myself">
-             <img src="../sunyformalpic.jpg" alt="jai ho" width="250" height="250" id="myimage"></img>
+             <img src="../sunyformalpic.jpg" alt="jai ho" width="170" height="170" id="myimage"></img>
              <p id="myview">My objective is to achieve a responsible position and explore myself more efficiently in an industry. My  goal also  includes learning new technologies which will be introduced  in upcoming years  and  contribute my  best skills  to the company. I would like to expand my knowledge by working hard and  learning  as  much as  possible .</p>
              </div>
              <h3 id="myheading">Academic Details</h3>
